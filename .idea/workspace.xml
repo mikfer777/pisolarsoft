@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="801cf957-27e6-4609-8a74-64114a3e14b5" name="Default Changelist" comment="" />
+    <list default="true" id="801cf957-27e6-4609-8a74-64114a3e14b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -80,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1583594614142</updated>
     </task>
+    <task id="LOCAL-00001" summary="init project from picheckvoltage">
+      <created>1589650544562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589650544562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +112,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project from picheckvoltage" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project from picheckvoltage" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="696" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589649669940">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -104,6 +125,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="691" y="134" key="#sun_azimut/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1585497478819" />
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1589650542406">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589650542406" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1589650310869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -132,6 +157,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589642249767" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589650818665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589650818665" />
     <state x="656" y="125" width="607" height="789" key="find.popup" timestamp="1585490967471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
