@@ -2,63 +2,38 @@
 " Edit below this line to fit your needs
 """
 
-## Path of the scripts which will run by checkvoltage
-# Script to run when no battery is plugged (array with script then parameters)
-NOBAT_SCRIPT_PATH = ["/root/raspberrypi/movingraspi/MovingRaspiPlus/Server/movingraspi.sh", "stop"]
-# Script to run when battery voltage is dangerously low (array with script then
-#   parameters)
-DNGBAT_SCRIPT_PATH = ["/root/pcvscripts/batterymail.sh", "&"]
-# Script to run when battery voltage is low (array with script then parameters)
-KOBAT_SCRIPT_PATH = ["/root/raspberrypi/movingraspi/MovingRaspiPlus/Server/movingraspi.sh", "stop"]
-# Script to run when battery voltage is good (array with script then parameters)
-OKBAT_SCRIPT_PATH = ["/root/raspberrypi/movingraspi/MovingRaspiPlus/Server/movingraspi.sh", "start"]
-
-# GPIO (BOARD numbering scheme) pin for good voltage LED
-GOODVOLTPIN = 11
-# GPIO (BOARD numbering scheme) pin for low voltage LED
-LOWVOLTPIN = 12
-# GPIO (BOARD numbering scheme) pin for kill switch (LOW value to stop powering
-#   assembly) 
-KILLPIN = 13
 
 ## Define voltages
-# Number of batteries in series
-BATNUMBER = 8.0
-#BATNUMBER = 3.0
-# Fully charged voltage (for a single battery); 
-#   i.e. 1.4V for a NiMH battery, or 4.2V for a LiPo battery
-FULLBATVOLT = 1.4
-#FULLBATVOLT = 4.2
-# Discharged voltage (for a single battery); 
+##
+FULLBATVOLT = 14.6 # 100% chargé
+# Discharged voltage (for a single battery);
 #   i.e. 1.05V for a NiMH battery, or 3.4V for a LiPo battery
 #   You should use a conservative value in order to avoid destructive
 #   discharging
-LOWBATVOLT = 1.05
+LOWBATVOLT = 12
 #LOWBATVOLT = 3.4
-# Dangerous voltage (for a single battery);
-#   i.e. 1.0V for a NiMH battery, or 3.2V for a LiPo battery
+# Dangerous voltage
 #   You should really not go below this voltage.
-DNGBATVOLT = 1.0
-#DNGBATVOLT = 3.2
+DNGBATVOLT = 10
 
 # Value (in ohms) of the lower resistor from the voltage divider, connected to
 #   the ground line (1 if no voltage divider). Default value (3900) is for a 
 #   battery pack of 8 NiMH batteries, providing 11.2V max, stepped down to about
 #   3.2V max.
-LOWRESVAL = 3900
+LOWRESVAL = 1000
 # Value (in ohms) of the higher resistor from the voltage divider, connected to 
 #   the positive line (0 if no voltage divider). Default value (10000) is for a
 #   battery pack of 8 NiMH batteries, providing 11.2V max, stepped down to about
 #   3.2V max.
-HIGHRESVAL = 10000
+HIGHRESVAL = 5500
 # Voltage value measured by the MCP3008 when batteries are fully charged
 # It should be near 3.3V due to Raspberry Pi GPIO compatibility)
-VHIGHBAT = (BATNUMBER*FULLBATVOLT)*(LOWRESVAL)/(LOWRESVAL+HIGHRESVAL)
+VHIGHBAT = (FULLBATVOLT)*(LOWRESVAL)/(LOWRESVAL+HIGHRESVAL)
 # Voltage value measured by the MCP3008 when batteries are discharged
-VLOWBAT = (BATNUMBER*LOWBATVOLT)*(LOWRESVAL)/(LOWRESVAL+HIGHRESVAL)
+VLOWBAT = (LOWBATVOLT)*(LOWRESVAL)/(LOWRESVAL+HIGHRESVAL)
 # Voltage value measured by the MCP3008 when batteries voltage is dangerously
 #   low
-VDNGBAT = (BATNUMBER*DNGBATVOLT)*(LOWRESVAL)/(LOWRESVAL+HIGHRESVAL)
+VDNGBAT = (DNGBATVOLT)*(LOWRESVAL)/(LOWRESVAL+HIGHRESVAL)
 
 # ADC voltage reference (3.3V for Raspberry Pi)
 ADCVREF = 3.3
@@ -95,29 +70,8 @@ ADCUNP = 300 # No battery plugged
 #  switch from dangerous mode to low battery mode and back for a long time.
 ADCDNGBOUNCE = ADCDNG + 200
 
-# Refresh rate (ms)
-REFRESH_RATE = 1000
-
-# Hostname or IP address to listen for network queries. '' for all interfaces
-TCPHOST = ''
-# TCP port
-TCPPORT = 50007
-
-# Enable to possibility to push battery values to SIGFOX network
-#   http://www.sigfox.com/ for more information.
-SIGFOX_ENABLE = 0
-# SIGFOX device serial device
-SIGFOX_DEVICE = "/dev/ttyUSB0"
-# SIGFOX device baud rate
-SIGFOX_DEV_BR = 9600
-# SIGFOX device byte size (5 to 8)
-SIGFOX_DEV_BS = 8
-# SIGFOX device parity ("[N]one", "[E]ven", "[O]dd", "[M]ark", "[S]pace")
-SIGFOX_DEV_PAR = "N"
-# SIGFOX device stop bits (1, 1.5, 2)
-SIGFOX_DEV_SB = 1
-# SIGFOX push rate (ms, MUST be a multiple of REFRESH_RATE)
-SIGFOX_PUSH_RATE = 300000
+# Refresh rate (ms)  = 30sec
+REFRESH_RATE = 30000
 
 # Display some debug values when set to 1, and nothing when set to 0
-DEBUGMSG = 1
+DEBUGMSG = 0

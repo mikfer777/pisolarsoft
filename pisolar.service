@@ -1,0 +1,20 @@
+[Unit]
+Description=pisolar Agent
+After=syslog.target
+After=network.target
+
+[Service]
+Environment="CONFFILE=/home/pi/pisolar/pisolar.conf"
+#EnvironmentFile=-/etc/default/pisolar-agent
+#Type=forking
+Restart=on-failure
+PIDFile=/home/pi/pisolar.pid
+KillMode=control-group
+ExecStart=/usr/sbin/pisolard -c $CONFFILE
+ExecStop=/bin/kill -SIGTERM $MAINPID
+RestartSec=10s
+User=pi
+Group=pi
+
+[Install]
+WantedBy=multi-user.target

@@ -1,9 +1,9 @@
 PiCheckVoltage
 ==============
 
-* [Project's website](http://goddess-gate.com/projects/en/raspi/picheckvoltage)
+* [Project's website](https://github.com/mikfer777/pisolarsoft)
 
-PiCheckVoltage is a project for the [Raspberry Pi](http://raspberrypi.org) intended to provide a mean to check voltage of a battery pack which is used to power electronic assemblies connected to the Raspberry Pi.
+PiSolarSoft is a project for the [Raspberry Pi](http://raspberrypi.org) intended to provide a mean to check voltage of a battery pack which is used to power electronic assemblies connected to the Raspberry Pi.
 
 PiCheckVoltage is made of three hardware parts and one software part:
 
@@ -48,12 +48,6 @@ Requirements
 * Python (with Debian / Raspbian : packages “python” and “python-dev”)
 * RPi.GPIO library (0.4.0a or newer) (with Debian / Raspbian : package “python-rpi.gpio”)
 
-To help you with the assembly, you may refer to the following files :
-
-* You may need to download and install [Raspberry Part](https://github.com/adafruit/Fritzing-Library/blob/master/AdaFruit.fzbz) for Fritzing
-* picheckvoltage.fzz (into “doc” folder): the assembly mockup to open with Fritzing 
-  ([http://fritzing.org/](http://fritzing.org/))
-
 
 Electronic assembly
 -------------------
@@ -64,10 +58,8 @@ Mockup on breadboard:
 Electronic schematics:
 ![Electronic schematics](/imgs/schematic.png "Electronic schematics")
 
-Live install on [MovingRaspiPlus](https://github.com/aboudou/movingraspi)
-![Live install on MovingRaspiPlus](http://farm9.staticflickr.com/8254/8666239532_4e708423b7_c.jpg "Live install on MovingRaspiPlus")
 
-How to use PiCheckVoltage
+How to use PiSolarSoft
 -------------------------
 
 You'll first have to build the electronic assembly, then plug it to the Raspberry Pi
@@ -111,3 +103,8 @@ To use SIGFOX push, you'll have to enable it from “config.py” file, and inst
 You can see [on this page](http://goddess-gate.com/sigfox/) live data pushed by my SIGFOX modem.
 
 Altough originaly intended to be used with a SIGFOX modem, this feature may be used with any serial device.
+
+
+
+
+scp  -P 443  /cygdrive/c/rootGit/Github/pisolarsoft/pisolartrapper.py pi@raspgateway: && ssh  -p 443 pi@raspgateway "scp -P 22  pisolartrapper.py  pi@192.168.1.92:"
