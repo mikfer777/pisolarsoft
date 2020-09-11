@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801cf957-27e6-4609-8a74-64114a3e14b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pisolar.service" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pisolartrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarconfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zabbixtrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_stepper_motor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_stepper_motor2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp3008.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcp3008.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisolartrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisolartrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/solarconfig.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -46,10 +50,10 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\rootGit\Github\pisolarsoft" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\rootGit\Github\pisolarsoft" />
     </key>
   </component>
@@ -140,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589650898589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pisolartrapper dev">
+      <created>1590249389088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590249389088</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,53 +169,54 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project from picheckvoltage" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project from picheckvoltage" />
+    <MESSAGE value="pisolartrapper dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="pisolartrapper dev" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="696" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589732315350">
+    <state x="696" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591538813870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="696" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589732315350" />
+    <state x="696" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591538813870" />
     <state x="691" y="134" key="#sun_azimut" timestamp="1585497478819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="691" y="134" key="#sun_azimut/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1585497478819" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1589650896762">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1590249386724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589650896762" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1589650310869">
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1590249386724" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591891912013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589650310869" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591891912013" />
     <state x="837" y="413" width="260" height="214" key="Github.ShareDialog" timestamp="1589650358237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="837" y="413" width="260" height="214" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589650358237" />
-    <state width="1899" height="296" key="GridCell.Tab.0.bottom" timestamp="1590249361775">
+    <state width="1899" height="296" key="GridCell.Tab.0.bottom" timestamp="1591080333600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1590249361775" />
-    <state width="1899" height="296" key="GridCell.Tab.0.center" timestamp="1590249361775">
+    <state width="1899" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591080333600" />
+    <state width="1899" height="296" key="GridCell.Tab.0.center" timestamp="1591080333599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1590249361775" />
-    <state width="1899" height="296" key="GridCell.Tab.0.left" timestamp="1590249361775">
+    <state width="1899" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591080333599" />
+    <state width="1899" height="296" key="GridCell.Tab.0.left" timestamp="1591080333598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1590249361775" />
-    <state width="1899" height="296" key="GridCell.Tab.0.right" timestamp="1590249361775">
+    <state width="1899" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591080333598" />
+    <state width="1899" height="296" key="GridCell.Tab.0.right" timestamp="1591080333599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1590249361775" />
+    <state width="1899" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591080333599" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1589642249767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589642249767" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589650901801">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590249391268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589650901801" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1590249391268" />
     <state x="656" y="125" width="607" height="789" key="find.popup" timestamp="1590246754481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

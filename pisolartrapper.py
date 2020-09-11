@@ -18,9 +18,6 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
 from pyzabbix import ZabbixMetric, ZabbixSender, ZabbixResponse
 
-
-
-
 STATUSNOBAT = 0
 STATUSDNGBAT = 0
 STATUSLOWBAT = 0
@@ -76,7 +73,8 @@ while True:
     ret = readadc(ADCCHANNEL, SPICLK, SPIMOSI, SPIMISO, SPICS)
     ret2 = readadc(1, SPICLK, SPIMOSI, SPIMISO, SPICS)
     if DEBUGMSG == 1:
-        print("ADC value channel0: " + str(ret) + " (" + str((3.3 / 1024.0) * ret) + " V)" + " (" + str(6.18 * (3.3 / 1024.0) * ret) + " V)")
+        print("ADC value channel0: " + str(ret) + " (" + str((3.3 / 1024.0) * ret) + " V)" + " (" + str(
+            6.18 * (3.3 / 1024.0) * ret) + " V)")
         print("ADC value channel1: " + str(ret2))
 
     if ret < ADCUNP:
@@ -132,10 +130,13 @@ while True:
             #     print("Could not execute " + OKBAT_SCRIPT_PATH[0] + " ", detail)
 
     # Send metrics to zabbix trapper
+    vref = (3.3 / 1024.0) * ret
+    vbat = 6.18 * (3.3 / 1024.0) * ret
     packet = [
-        ZabbixMetric(hostId, key, ret)
+        ZabbixMetric(hostId, 'adc', ret)
         # multiple metrics can be sent in same call for effeciency
-        # ,ZabbixMetric(hostId, 'anotherkey', 'anothervalue')
+        , ZabbixMetric(hostId, 'vref', vref)
+        , ZabbixMetric(hostId, 'vbat', vbat)
     ]
 
     ZabbixResponse = ZabbixSender(zserver, port, use_config=None).send(packet)

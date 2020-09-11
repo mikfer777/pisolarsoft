@@ -70,8 +70,8 @@ ADCUNP = 300 # No battery plugged
 #  switch from dangerous mode to low battery mode and back for a long time.
 ADCDNGBOUNCE = ADCDNG + 200
 
-# Refresh rate (ms)  = 30sec
-REFRESH_RATE = 30000
+# Refresh rate (ms)  = 1 min
+REFRESH_RATE = 60000
 
 # Display some debug values when set to 1, and nothing when set to 0
 DEBUGMSG = 0
