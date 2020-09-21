@@ -4,9 +4,9 @@ import RPi.GPIO as GPIO
 import time
 
 out1 = 13
-out2 = 11
-out3 = 15
-out4 = 12
+out2 = 15
+out3 = 31
+out4 = 29
 
 i = 0
 positive = 0
