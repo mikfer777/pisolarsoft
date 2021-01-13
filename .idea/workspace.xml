@@ -25,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
@@ -264,65 +267,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="pisolartrapper dev" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="145" y="34" width="1076" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601817113460">
-      <screen x="0" y="0" width="1366" height="741" />
-    </state>
-    <state x="145" y="34" width="1076" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.741@0.0.1366.741" timestamp="1601817113460" />
-    <state x="519" y="184" width="318" height="361" key="FileChooserDialogImpl" timestamp="1601817533790">
-      <screen x="0" y="0" width="1366" height="741" />
-    </state>
-    <state x="519" y="184" width="318" height="361" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1601817533790" />
-    <state x="559" y="293" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1600706233703">
-      <screen x="0" y="0" width="1366" height="745" />
-    </state>
-    <state x="559" y="293" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1600706233703" />
     <state width="1348" height="330" key="GridCell.Tab.0.bottom" timestamp="1605379556742">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1348" height="330" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1605379556742" />
-    <state width="1348" height="281" key="GridCell.Tab.0.bottom/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601145478170" />
-    <state width="1902" height="281" key="GridCell.Tab.0.bottom/0.0.1366.745/1366.0.1920.1200@1366.0.1920.1200" timestamp="1601212848878" />
-    <state width="1348" height="434" key="GridCell.Tab.0.bottom/0.0.1366.745@0.0.1366.745" timestamp="1600944213861" />
     <state width="1348" height="187" key="GridCell.Tab.0.bottom/0.0.3286.741@0.0.3286.741" timestamp="1602346003952" />
     <state width="1348" height="330" key="GridCell.Tab.0.center" timestamp="1605379556741">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1348" height="330" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1605379556741" />
-    <state width="1348" height="281" key="GridCell.Tab.0.center/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601145478169" />
-    <state width="1902" height="281" key="GridCell.Tab.0.center/0.0.1366.745/1366.0.1920.1200@1366.0.1920.1200" timestamp="1601212848878" />
-    <state width="1348" height="434" key="GridCell.Tab.0.center/0.0.1366.745@0.0.1366.745" timestamp="1600944213861" />
     <state width="1348" height="187" key="GridCell.Tab.0.center/0.0.3286.741@0.0.3286.741" timestamp="1602346003949" />
     <state width="1348" height="330" key="GridCell.Tab.0.left" timestamp="1605379556741">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1348" height="330" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1605379556741" />
-    <state width="1348" height="281" key="GridCell.Tab.0.left/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601145478169" />
-    <state width="1902" height="281" key="GridCell.Tab.0.left/0.0.1366.745/1366.0.1920.1200@1366.0.1920.1200" timestamp="1601212848878" />
-    <state width="1348" height="434" key="GridCell.Tab.0.left/0.0.1366.745@0.0.1366.745" timestamp="1600944213860" />
     <state width="1348" height="187" key="GridCell.Tab.0.left/0.0.3286.741@0.0.3286.741" timestamp="1602346003948" />
     <state width="1348" height="330" key="GridCell.Tab.0.right" timestamp="1605379556741">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1348" height="330" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1605379556741" />
-    <state width="1348" height="281" key="GridCell.Tab.0.right/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601145478170" />
-    <state width="1902" height="281" key="GridCell.Tab.0.right/0.0.1366.745/1366.0.1920.1200@1366.0.1920.1200" timestamp="1601212848878" />
-    <state width="1348" height="434" key="GridCell.Tab.0.right/0.0.1366.745@0.0.1366.745" timestamp="1600944213861" />
     <state width="1348" height="187" key="GridCell.Tab.0.right/0.0.3286.741@0.0.3286.741" timestamp="1602346003951" />
-    <state x="306" y="80" key="SettingsEditor" timestamp="1601817942676">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state x="568" y="169" width="392" height="397" key="Vcs.Push.Dialog.v2" timestamp="1610557866771">
+      <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state x="306" y="80" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1601817942676" />
-    <state x="306" y="80" key="SettingsEditor/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601048041218" />
-    <state x="306" y="80" key="SettingsEditor/0.0.1366.745@0.0.1366.745" timestamp="1600790998664" />
-    <state x="1366" y="168" width="600" height="395" key="Vcs.Push.Dialog.v2" timestamp="1602346045808">
-      <screen x="0" y="0" width="3286" height="741" />
-    </state>
-    <state x="378" y="169" width="600" height="395" key="Vcs.Push.Dialog.v2/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1600707219372" />
+    <state x="568" y="169" width="392" height="397" key="Vcs.Push.Dialog.v2/0.0.1366.744@0.0.1366.744" timestamp="1610557866771" />
     <state x="1366" y="168" key="Vcs.Push.Dialog.v2/0.0.3286.741@0.0.3286.741" timestamp="1602346045808" />
     <state x="1049" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602346077966">
       <screen x="0" y="0" width="3286" height="741" />
     </state>
-    <state x="504" y="320" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601047846598" />
     <state x="1049" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3286.741@0.0.3286.741" timestamp="1602346077966" />
   </component>
 </project>
