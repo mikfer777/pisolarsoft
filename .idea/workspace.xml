@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="801cf957-27e6-4609-8a74-64114a3e14b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_stepper_motor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_stepper_motor2.py" afterDir="false" />
+    <list default="true" id="801cf957-27e6-4609-8a74-64114a3e14b5" name="Default Changelist" comment="pisolartrapper dev">
+      <change afterPath="$PROJECT_DIR$/usbtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usbtest_send.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/picheckvoltage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/picheckvoltage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisolartrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisolartrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/solarconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_stepper_motor2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_stepper_motor2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,21 +35,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\rootGit\Github\picheckvoltage\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1Yo2R59tHs99kgfYGCbHQRDAhnj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -54,10 +55,11 @@
       <recent name="C:\rootGit\Github\pisolarsoft" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\rootGit\Github\pisolarsoft" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pisolartrapper">
+  <component name="RunManager" selected="Python.usbtest_send">
     <configuration name="pisolartrapper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="picheckvoltage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,19 +81,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sun_azimut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_stepper_motor2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="picheckvoltage" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\orafmw\product\python27\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/102456-0-azimut-du-soleil" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/102456-0-azimut-du-soleil/sun_azimut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_stepper_motor2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,25 +102,87 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="usbtest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="picheckvoltage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/usbtest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="usbtest_send" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="picheckvoltage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/usbtest_send.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xbeeProtrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="picheckvoltage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xbeeProtrapper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.pisolartrapper" />
+      <item itemvalue="Python.test_stepper_motor2" />
+      <item itemvalue="Python.usbtest" />
+      <item itemvalue="Python.usbtest_send" />
+      <item itemvalue="Python.xbeeProtrapper" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.usbtest_send" />
+        <item itemvalue="Python.usbtest" />
+        <item itemvalue="Python.test_stepper_motor2" />
         <item itemvalue="Python.pisolartrapper" />
-        <item itemvalue="Python.sun_azimut" />
+        <item itemvalue="Python.xbeeProtrapper" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -151,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590249389088</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pisolartrapper dev">
+      <created>1600706211273</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600706211273</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pisolartrapper dev">
+      <created>1602346028595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602346028596</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,70 +238,84 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project from picheckvoltage" />
+    <MESSAGE value="adding DHT adafruit" />
     <MESSAGE value="pisolartrapper dev" />
     <option name="LAST_COMMIT_MESSAGE" value="pisolartrapper dev" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="696" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591538813870">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="145" y="34" width="1076" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601817113460">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="696" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591538813870" />
-    <state x="691" y="134" key="#sun_azimut" timestamp="1585497478819">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="145" y="34" width="1076" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.741@0.0.1366.741" timestamp="1601817113460" />
+    <state x="519" y="184" width="318" height="361" key="FileChooserDialogImpl" timestamp="1601817533790">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="691" y="134" key="#sun_azimut/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1585497478819" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1590249386724">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="519" y="184" width="318" height="361" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1601817533790" />
+    <state x="559" y="293" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1600706233703">
+      <screen x="0" y="0" width="1366" height="745" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1590249386724" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591891912013">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="559" y="293" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1600706233703" />
+    <state width="1348" height="330" key="GridCell.Tab.0.bottom" timestamp="1605379556742">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591891912013" />
-    <state x="837" y="413" width="260" height="214" key="Github.ShareDialog" timestamp="1589650358237">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1348" height="330" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1605379556742" />
+    <state width="1348" height="281" key="GridCell.Tab.0.bottom/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601145478170" />
+    <state width="1902" height="281" key="GridCell.Tab.0.bottom/0.0.1366.745/1366.0.1920.1200@1366.0.1920.1200" timestamp="1601212848878" />
+    <state width="1348" height="434" key="GridCell.Tab.0.bottom/0.0.1366.745@0.0.1366.745" timestamp="1600944213861" />
+    <state width="1348" height="187" key="GridCell.Tab.0.bottom/0.0.3286.741@0.0.3286.741" timestamp="1602346003952" />
+    <state width="1348" height="330" key="GridCell.Tab.0.center" timestamp="1605379556741">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="837" y="413" width="260" height="214" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589650358237" />
-    <state width="1899" height="296" key="GridCell.Tab.0.bottom" timestamp="1591080333600">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1348" height="330" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1605379556741" />
+    <state width="1348" height="281" key="GridCell.Tab.0.center/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601145478169" />
+    <state width="1902" height="281" key="GridCell.Tab.0.center/0.0.1366.745/1366.0.1920.1200@1366.0.1920.1200" timestamp="1601212848878" />
+    <state width="1348" height="434" key="GridCell.Tab.0.center/0.0.1366.745@0.0.1366.745" timestamp="1600944213861" />
+    <state width="1348" height="187" key="GridCell.Tab.0.center/0.0.3286.741@0.0.3286.741" timestamp="1602346003949" />
+    <state width="1348" height="330" key="GridCell.Tab.0.left" timestamp="1605379556741">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1899" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591080333600" />
-    <state width="1899" height="296" key="GridCell.Tab.0.center" timestamp="1591080333599">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1348" height="330" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1605379556741" />
+    <state width="1348" height="281" key="GridCell.Tab.0.left/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601145478169" />
+    <state width="1902" height="281" key="GridCell.Tab.0.left/0.0.1366.745/1366.0.1920.1200@1366.0.1920.1200" timestamp="1601212848878" />
+    <state width="1348" height="434" key="GridCell.Tab.0.left/0.0.1366.745@0.0.1366.745" timestamp="1600944213860" />
+    <state width="1348" height="187" key="GridCell.Tab.0.left/0.0.3286.741@0.0.3286.741" timestamp="1602346003948" />
+    <state width="1348" height="330" key="GridCell.Tab.0.right" timestamp="1605379556741">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1899" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591080333599" />
-    <state width="1899" height="296" key="GridCell.Tab.0.left" timestamp="1591080333598">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1348" height="330" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1605379556741" />
+    <state width="1348" height="281" key="GridCell.Tab.0.right/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601145478170" />
+    <state width="1902" height="281" key="GridCell.Tab.0.right/0.0.1366.745/1366.0.1920.1200@1366.0.1920.1200" timestamp="1601212848878" />
+    <state width="1348" height="434" key="GridCell.Tab.0.right/0.0.1366.745@0.0.1366.745" timestamp="1600944213861" />
+    <state width="1348" height="187" key="GridCell.Tab.0.right/0.0.3286.741@0.0.3286.741" timestamp="1602346003951" />
+    <state x="306" y="80" key="SettingsEditor" timestamp="1601817942676">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1899" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591080333598" />
-    <state width="1899" height="296" key="GridCell.Tab.0.right" timestamp="1591080333599">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="306" y="80" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1601817942676" />
+    <state x="306" y="80" key="SettingsEditor/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601048041218" />
+    <state x="306" y="80" key="SettingsEditor/0.0.1366.745@0.0.1366.745" timestamp="1600790998664" />
+    <state x="1366" y="168" width="600" height="395" key="Vcs.Push.Dialog.v2" timestamp="1602346045808">
+      <screen x="0" y="0" width="3286" height="741" />
     </state>
-    <state width="1899" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1591080333599" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1589642249767">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="378" y="169" width="600" height="395" key="Vcs.Push.Dialog.v2/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1600707219372" />
+    <state x="1366" y="168" key="Vcs.Push.Dialog.v2/0.0.3286.741@0.0.3286.741" timestamp="1602346045808" />
+    <state x="1049" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602346077966">
+      <screen x="0" y="0" width="3286" height="741" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589642249767" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590249391268">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1590249391268" />
-    <state x="656" y="125" width="607" height="789" key="find.popup" timestamp="1590246754481">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="125" width="607" height="789" key="find.popup/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1590246754481" />
-    <state x="761" y="311" key="git4idea.merge.GitPullDialog" timestamp="1589650435944">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="761" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1200@0.0.1920.1040" timestamp="1589650435944" />
+    <state x="504" y="320" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.745/1366.0.1920.1200@0.0.1366.745" timestamp="1601047846598" />
+    <state x="1049" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3286.741@0.0.3286.741" timestamp="1602346077966" />
   </component>
 </project>
